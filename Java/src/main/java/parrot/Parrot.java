@@ -24,7 +24,7 @@ public class Parrot {
                 parrot = new AfricanParrot(type, numberOfCoconuts, voltage, isNailed);
             }
             case NORWEGIAN_BLUE -> {
-                parrot = new Parrot(type, numberOfCoconuts, voltage, isNailed);
+                parrot = new NorwegianParrot(type, numberOfCoconuts, voltage, isNailed);
             }
             default -> throw new IllegalArgumentException("Unknown parrot type: " + type);
         }
