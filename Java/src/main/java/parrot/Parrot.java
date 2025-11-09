@@ -21,7 +21,7 @@ public class Parrot {
                 parrot = new EuropeanParrot(type, numberOfCoconuts, voltage, isNailed);
             }
             case AFRICAN -> {
-                parrot = new Parrot(type, numberOfCoconuts, voltage, isNailed);
+                parrot = new AfricanParrot(type, numberOfCoconuts, voltage, isNailed);
             }
             case NORWEGIAN_BLUE -> {
                 parrot = new Parrot(type, numberOfCoconuts, voltage, isNailed);
