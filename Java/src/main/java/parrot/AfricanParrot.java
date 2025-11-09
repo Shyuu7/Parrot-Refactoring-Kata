@@ -17,4 +17,5 @@ public class AfricanParrot extends Parrot {
     public String getCry() {
         return "Sqaark!";
     }
+
 }
