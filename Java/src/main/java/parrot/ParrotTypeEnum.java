@@ -10,10 +10,10 @@ public enum ParrotTypeEnum {
         Parrot parrot;
         switch (type) {
             case EUROPEAN -> {
-                parrot = new EuropeanParrot(voltage, isNailed);
+                parrot = new EuropeanParrot();
             }
             case AFRICAN -> {
-                parrot = new AfricanParrot(numberOfCoconuts, voltage, isNailed);
+                parrot = new AfricanParrot(numberOfCoconuts);
             }
             case NORWEGIAN_BLUE -> {
                 parrot = new NorwegianParrot(voltage, isNailed);
