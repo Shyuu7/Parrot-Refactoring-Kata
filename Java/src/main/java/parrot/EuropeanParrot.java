@@ -15,4 +15,8 @@ public class EuropeanParrot extends Parrot {
     public String getCry() {
         return "Sqoork!";
     }
+
+    protected double getBaseSpeed() {
+        return 12.0;
+    }
 }

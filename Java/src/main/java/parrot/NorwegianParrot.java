@@ -23,4 +23,8 @@ public class NorwegianParrot extends Parrot {
     public String getCry() {
         return voltage > 0 ? "Bzzzzzz" : "...";
     }
+
+    protected double getBaseSpeed() {
+        return 12.0;
+    }
 }
