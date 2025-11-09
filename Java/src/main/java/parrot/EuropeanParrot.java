@@ -8,15 +8,11 @@ public class EuropeanParrot extends Parrot {
 
     @Override
     public double getSpeed() {
-        return getBaseSpeed();
+        return BASE_SPEED;
     }
 
     @Override
     public String getCry() {
         return "Sqoork!";
-    }
-
-    protected double getBaseSpeed() {
-        return 12.0;
     }
 }
