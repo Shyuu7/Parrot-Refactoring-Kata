@@ -1,7 +1,7 @@
 package parrot;
 
 public class NorwegianParrot extends Parrot {
-    protected NorwegianParrot(int numberOfCoconuts, double voltage, boolean isNailed) {
+    protected NorwegianParrot(double voltage, boolean isNailed) {
         super(voltage, isNailed);
     }
 
