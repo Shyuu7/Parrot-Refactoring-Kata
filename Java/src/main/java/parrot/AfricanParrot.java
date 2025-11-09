@@ -10,4 +10,13 @@ public class AfricanParrot extends Parrot {
     public double getSpeed() {
         return Math.max(0, getBaseSpeed() - getLoadFactor() * numberOfCoconuts);
     }
+
+    @Override
+    public String getCry() {
+        return switch (type) {
+            case EUROPEAN -> "Sqoork!";
+            case AFRICAN -> "Sqaark!";
+            case NORWEGIAN_BLUE -> voltage > 0 ? "Bzzzzzz" : "...";
+        };
+    }
 }
