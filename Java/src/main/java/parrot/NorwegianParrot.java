@@ -23,6 +23,4 @@ public class NorwegianParrot extends Parrot {
     public String getCry() {
         return voltage > 0 ? "Bzzzzzz" : "...";
     }
-
-
 }
